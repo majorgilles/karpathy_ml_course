@@ -6,6 +6,18 @@ Unofficial index of Andrej Karpathy's **Neural Networks: Zero to Hero** course.
 - Format: one Markdown file per lesson, with the lesson video link highlighted at the top.
 - Transcripts: [`video_transcripts/`](video_transcripts/)
 
+## Python environment
+
+This repository is also a [`uv`](https://docs.astral.sh/uv/) project for course exercises and experiments.
+
+```bash
+uv sync --dev
+uv run ruff check .
+uv run ruff format .
+```
+
+Runtime dependencies: `numpy`, `pandas`, `seaborn`, and `torch` (PyTorch). Dev dependency: `ruff`.
+
 ## Lessons
 
 | # | Duration | Lesson | Link | Local note |
