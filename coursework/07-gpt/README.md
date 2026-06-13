@@ -9,6 +9,10 @@
 
 Build a compact GPT-style autoregressive Transformer from data loading through text generation.
 
+## Starter notebook
+
+- [`notebooks/07-gpt.ipynb`](notebooks/07-gpt.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.

@@ -9,6 +9,10 @@
 
 Move from bigram tables to a learned embedding plus MLP language model for next-character prediction.
 
+## Starter notebook
+
+- [`notebooks/03-makemore-mlp.ipynb`](notebooks/03-makemore-mlp.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.

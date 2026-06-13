@@ -9,6 +9,10 @@
 
 Diagnose training health by inspecting activations, gradients, initialization, and BatchNorm behavior.
 
+## Starter notebook
+
+- [`notebooks/04-activations-gradients-batchnorm.ipynb`](notebooks/04-activations-gradients-batchnorm.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.

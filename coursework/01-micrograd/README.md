@@ -9,6 +9,10 @@
 
 Rebuild the core scalar autograd engine and a tiny MLP so backpropagation is concrete rather than magical.
 
+## Starter notebook
+
+- [`notebooks/01-micrograd.ipynb`](notebooks/01-micrograd.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.

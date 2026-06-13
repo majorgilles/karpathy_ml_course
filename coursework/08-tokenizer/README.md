@@ -9,6 +9,10 @@
 
 Implement a GPT-style tokenizer from bytes through BPE merges, encode/decode, and special-token handling.
 
+## Starter notebook
+
+- [`notebooks/08-tokenizer.ipynb`](notebooks/08-tokenizer.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.

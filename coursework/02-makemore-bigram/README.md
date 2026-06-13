@@ -9,6 +9,10 @@
 
 Implement the makemore bigram language model and the basic train/sample/evaluate loop for character-level modeling.
 
+## Starter notebook
+
+- [`notebooks/02-makemore-bigram.ipynb`](notebooks/02-makemore-bigram.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.

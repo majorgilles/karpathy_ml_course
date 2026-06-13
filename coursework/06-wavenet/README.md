@@ -9,6 +9,10 @@
 
 Refactor makemore into deeper module-style code and build a WaveNet-like hierarchical context model.
 
+## Starter notebook
+
+- [`notebooks/06-wavenet.ipynb`](notebooks/06-wavenet.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.

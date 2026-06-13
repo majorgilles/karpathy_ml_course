@@ -9,6 +9,10 @@
 
 Manually derive and verify the gradients for the makemore MLP end-to-end.
 
+## Starter notebook
+
+- [`notebooks/05-backprop-ninja.ipynb`](notebooks/05-backprop-ninja.ipynb)
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.
