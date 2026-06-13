@@ -4,6 +4,7 @@ Unofficial index of Andrej Karpathy's **Neural Networks: Zero to Hero** course.
 
 - Course page: <https://karpathy.ai/zero-to-hero.html>
 - Format: one Markdown file per lesson, with the lesson video link highlighted at the top.
+- Transcripts: [`video_transcripts/`](video_transcripts/)
 
 ## Lessons
 
