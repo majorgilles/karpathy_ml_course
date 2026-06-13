@@ -5,6 +5,7 @@ description = "Unofficial lesson-link index and transcript collection for Andrej
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "ipykernel>=7.3.0",
     "numpy>=2.0",
     "pandas>=2.2",
     "seaborn>=0.13",
