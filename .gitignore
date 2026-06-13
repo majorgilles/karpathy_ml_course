@@ -11,6 +11,14 @@ venv/
 .ruff_cache/
 .pytest_cache/
 .mypy_cache/
+.ipynb_checkpoints/
+
+# Large generated ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
 
 # OS/editor
 .DS_Store

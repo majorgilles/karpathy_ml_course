@@ -5,6 +5,7 @@ Unofficial index of Andrej Karpathy's **Neural Networks: Zero to Hero** course.
 - Course page: <https://karpathy.ai/zero-to-hero.html>
 - Format: one Markdown file per lesson, with the lesson video link highlighted at the top.
 - Transcripts: [`video_transcripts/`](video_transcripts/)
+- Follow-along workspaces: [`coursework/`](coursework/)
 
 ## Python environment
 
@@ -17,6 +18,14 @@ uv run ruff format .
 ```
 
 Runtime dependencies: `numpy`, `pandas`, `seaborn`, and `torch` (PyTorch). Dev dependency: `ruff`.
+
+## Repository layout
+
+- `lessons/` — lightweight per-lesson note files with video links.
+- `video_transcripts/` — full transcript files and transcript index.
+- `coursework/` — one follow-along workspace per GitHub issue/lesson.
+- `data/` — shared raw, processed, and external data.
+- `artifacts/` — shared small figures, samples, and metrics.
 
 ## Lessons
 
