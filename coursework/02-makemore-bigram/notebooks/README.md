@@ -1,0 +1,1 @@
+Get comfortable with https://docs.pytorch.org/docs/2.13/notes/broadcasting.html
