@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/8
 - **Video:** https://youtu.be/zduSFxRajkE
-- **Lesson notes:** [`lessons/08-gpt-tokenizer.md`](../../lessons/08-gpt-tokenizer.md)
-- **Transcript:** [`video_transcripts/08-gpt-tokenizer.md`](../../video_transcripts/08-gpt-tokenizer.md)
+- **Duration:** 2h13m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+Build a GPT-style tokenizer and understand byte-pair encoding, encode/decode behavior, and why tokenization affects LLM behavior.
+
+## Learning checkpoint
+
+By the end, you should be able to explain what tokenizers do, why they are trained separately, and how tokenization can shape model behavior.
 
 ## Goal
 

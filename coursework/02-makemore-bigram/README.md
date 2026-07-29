@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/2
 - **Video:** https://youtu.be/PaCmpygFfXo
-- **Lesson notes:** [`lessons/02-makemore-bigram-language-model.md`](../../lessons/02-makemore-bigram-language-model.md)
-- **Transcript:** [`video_transcripts/02-makemore-bigram-language-model.md`](../../video_transcripts/02-makemore-bigram-language-model.md)
+- **Duration:** 1h57m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+Build a bigram character-level language model and learn the basic language-modeling loop: training, sampling, and loss evaluation.
+
+## Learning checkpoint
+
+By the end, you should be able to describe how a simple character-level model predicts the next token and how its loss is measured.
 
 ## Goal
 

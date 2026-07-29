@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/7
 - **Video:** https://www.youtube.com/watch?v=kCc8FmEb1nY
-- **Lesson notes:** [`lessons/07-gpt-from-scratch.md`](../../lessons/07-gpt-from-scratch.md)
-- **Transcript:** [`video_transcripts/07-gpt-from-scratch.md`](../../video_transcripts/07-gpt-from-scratch.md)
+- **Duration:** 1h56m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+Build a GPT-style Transformer from scratch, connecting autoregressive language modeling to modern attention-based architectures.
+
+## Learning checkpoint
+
+By the end, you should understand the major components of a small GPT implementation and how they fit into language-model training.
 
 ## Goal
 

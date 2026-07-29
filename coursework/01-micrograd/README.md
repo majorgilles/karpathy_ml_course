@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/1
 - **Video:** https://youtu.be/VMj-3S1tku0
-- **Lesson notes:** [`lessons/01-micrograd-backpropagation.md`](../../lessons/01-micrograd-backpropagation.md)
-- **Transcript:** [`video_transcripts/01-micrograd-backpropagation.md`](../../video_transcripts/01-micrograd-backpropagation.md)
+- **Duration:** 2h25m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+A ground-up introduction to neural networks and backpropagation, using Micrograd to make the mechanics explicit.
+
+## Learning checkpoint
+
+By the end, you should be able to explain how a computation graph supports gradient-based optimization.
 
 ## Goal
 

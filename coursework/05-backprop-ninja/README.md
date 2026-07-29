@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/5
 - **Video:** https://youtu.be/q8SA3rM6ckI
-- **Lesson notes:** [`lessons/05-makemore-backprop-ninja.md`](../../lessons/05-makemore-backprop-ninja.md)
-- **Transcript:** [`video_transcripts/05-makemore-backprop-ninja.md`](../../video_transcripts/05-makemore-backprop-ninja.md)
+- **Duration:** 1h55m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+Manually backpropagate through the makemore MLP, including loss, linear layers, tanh, batch normalization, and embeddings.
+
+## Learning checkpoint
+
+By the end, you should have a stronger tensor-level intuition for how gradients flow backward through a neural network.
 
 ## Goal
 

@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/3
 - **Video:** https://youtu.be/TCH_1BHY58I
-- **Lesson notes:** [`lessons/03-makemore-mlp.md`](../../lessons/03-makemore-mlp.md)
-- **Transcript:** [`video_transcripts/03-makemore-mlp.md`](../../video_transcripts/03-makemore-mlp.md)
+- **Duration:** 1h15m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+Extend makemore into a multilayer perceptron character-level language model while introducing practical ML workflow concepts.
+
+## Learning checkpoint
+
+By the end, you should understand train/dev/test splits, learning-rate tuning, hyperparameters, and overfitting at a basic level.
 
 ## Goal
 

@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/4
 - **Video:** https://youtu.be/P6sfmUTpUmc
-- **Lesson notes:** [`lessons/04-makemore-activations-gradients-batchnorm.md`](../../lessons/04-makemore-activations-gradients-batchnorm.md)
-- **Transcript:** [`video_transcripts/04-makemore-activations-gradients-batchnorm.md`](../../video_transcripts/04-makemore-activations-gradients-batchnorm.md)
+- **Duration:** 1h55m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+Inspect forward activations, backward gradients, scaling issues, diagnostics, and the role of Batch Normalization.
+
+## Learning checkpoint
+
+By the end, you should be able to identify signs of unhealthy activation or gradient statistics during neural network training.
 
 ## Goal
 

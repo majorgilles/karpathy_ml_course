@@ -2,8 +2,16 @@
 
 - **GitHub issue:** https://github.com/majorgilles/karpathy_ml_course/issues/6
 - **Video:** https://youtu.be/t3YJ5hKiMQ0
-- **Lesson notes:** [`lessons/06-makemore-wavenet.md`](../../lessons/06-makemore-wavenet.md)
-- **Transcript:** [`video_transcripts/06-makemore-wavenet.md`](../../video_transcripts/06-makemore-wavenet.md)
+- **Duration:** 56m
+- **Transcript:** [`transcript.md`](transcript.md)
+
+## Lesson focus
+
+Make the makemore model deeper with a tree-like structure that approaches the WaveNet architecture style.
+
+## Learning checkpoint
+
+By the end, you should be more comfortable tracking tensor shapes and using `torch.nn` as part of an iterative deep-learning workflow.
 
 ## Goal
 
