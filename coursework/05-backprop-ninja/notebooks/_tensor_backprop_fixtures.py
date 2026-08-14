@@ -148,6 +148,27 @@ def _source_for(number: int) -> tuple[str, str]:
         raise ValueError(f"Unknown tensor-backprop exercise: {number}") from error
 
 
+def _named_call_statements(source: str, function_name: str) -> list[ast.stmt]:
+    tree = ast.parse(source)
+    return [
+        statement
+        for statement in tree.body
+        if isinstance(statement, ast.Expr)
+        and isinstance(statement.value, ast.Call)
+        and isinstance(statement.value.func, ast.Name)
+        and statement.value.func.id == function_name
+    ]
+
+
+def _run_statements(key: str, statements: list[ast.stmt], namespace: dict, label: str) -> None:
+    module = ast.fix_missing_locations(ast.Module(body=statements, type_ignores=[]))
+    exec(
+        compile(module, f"<tensor-backprop-{label}-{key}>", "exec"),
+        namespace,
+        namespace,
+    )
+
+
 def run_fixture(number: int, namespace: dict) -> None:
     """Execute one fully opaque fixture in the notebook's global namespace."""
     key, source = _source_for(number)
@@ -155,28 +176,22 @@ def run_fixture(number: int, namespace: dict) -> None:
 
 
 def run_forward_reference(number: int, namespace: dict) -> None:
-    """Register a private reference while using inputs already visible in the notebook."""
+    """Register a private forward result while using notebook-visible inputs."""
     if not 1 <= number <= 15:
         raise ValueError("Visible forward references exist only for Exercises 001-015.")
-
     key, source = _source_for(number)
-    tree = ast.parse(source, filename=f"<tensor-backprop-fixture-{key}>")
-    reference_calls = [
-        node
-        for node in tree.body
-        if isinstance(node, ast.Expr)
-        and isinstance(node.value, ast.Call)
-        and isinstance(node.value.func, ast.Name)
-        and node.value.func.id == "_store_forward"
-    ]
-    if len(reference_calls) != 1:
+    statements = _named_call_statements(source, "_store_forward")
+    if len(statements) != 1:
         raise RuntimeError(f"Exercise {key} does not contain exactly one forward reference.")
+    _run_statements(key, statements, namespace, "forward-reference")
 
-    reference_module = ast.fix_missing_locations(
-        ast.Module(body=reference_calls, type_ignores=[])
-    )
-    exec(
-        compile(reference_module, f"<tensor-backprop-reference-{key}>", "exec"),
-        namespace,
-        namespace,
-    )
+
+def run_gradient_reference(number: int, namespace: dict) -> None:
+    """Register private gradient answers while using notebook-visible forward inputs."""
+    if not 16 <= number <= 33:
+        raise ValueError("Visible local-gradient references exist only for Exercises 016-033.")
+    key, source = _source_for(number)
+    statements = _named_call_statements(source, "_capture")
+    if len(statements) != 1:
+        raise RuntimeError(f"Exercise {key} does not contain exactly one gradient reference.")
+    _run_statements(key, statements, namespace, "gradient-reference")
