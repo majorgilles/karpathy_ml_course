@@ -1,7 +1,9 @@
-"""Opaque fixture runner for the tensor-backprop exercise notebooks.
+"""Private reference support for the tensor-backprop exercise notebooks.
 
-This generated support module keeps private expected-result calculations out of
-visible notebook cells. It is test infrastructure, not student lesson content.
+The notebooks expose their inputs, forward operations, outputs, intermediates,
+and upstream gradients directly. This generated support module retains the
+reference sources used by the private test helpers; expected gradient values
+remain hidden from student lesson content.
 """
 
 from __future__ import annotations
