@@ -21,6 +21,10 @@ Manually derive and verify the gradients for the makemore MLP end-to-end.
 
 - [`notebooks/05-backprop-ninja.ipynb`](notebooks/05-backprop-ninja.ipynb)
 
+## Supplementary practice notebooks
+
+The progressive indexing, broadcasting, and manual-backpropagation workbooks—including pristine retry copies—now live in the separate [PyTorch Mastery Through Exercises](https://github.com/majorgilles/pytorch_master_through_exercises) repository.
+
 ## Folder contract
 
 - `notebooks/` — exploratory notebooks while following the lecture.
